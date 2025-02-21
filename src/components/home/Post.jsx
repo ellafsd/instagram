@@ -20,7 +20,7 @@ const Post = ({post}) => {
 
       <FitImage src={post.image} />
 
-      <View style={styles.content}>
+      <View style={styles.content}>``
         {/* Actions: Like, Comment, Share, Bookmark */}
         <View style={styles.actions}>
           <View style={styles.leftActions}>
@@ -80,7 +80,7 @@ const Post = ({post}) => {
 
         {/* Show Translated Description if Clicked */}
         {showTranslation && (
-          <Text style={styles.translationText}>{post.description_de}</Text>
+          <Text style={styles.translationText}>{post.description_es}</Text>
         )}
       </View>
     </View>
@@ -144,6 +144,13 @@ const styles = StyleSheet.create({
     fontWeight: '400',
     alignSelf: 'center',  
   },
+
+
+  user: {
+    fontWeight: 'bold', 
+    fontSize: 14,
+  },
+
 
   dateTranslationContainer: {
     flexDirection: 'row',
