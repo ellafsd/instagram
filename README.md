@@ -1,6 +1,6 @@
 # 📸 Instagram 
 
-This is a **React Native** Instagram-inspired project that features a homepage displaying posts with images, captions, likes, and comments. Users can navigate through different sections, including Home, Search, Reels, Shop, and Profile. 
+This is a **React Native** Instagram-inspired project. Users can navigate through different sections, including Home, Search, Reels, Shop, and Profile.
 
 ## 📸 Screenshots
 
