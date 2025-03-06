@@ -265,7 +265,7 @@ export default [
     comments: 28,
     image: 'https://picsum.photos/1080/607?random=18',
     user: {
-      name: 'Hannah Lee',
+      name: 'Isha Azeez',
       avatar: 'https://randomuser.me/api/portraits/women/18.jpg',
     },
   },

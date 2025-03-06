@@ -105,7 +105,6 @@ const Messenger = ({size}) => {
 };
 
 
-
 const Dots = () => {
   return (
     <Image
@@ -138,8 +137,23 @@ const Share = () => {
     />
   );
 };
+const Dropdown = () => {
+  return (
+    <Image
+      style={{width: 24, height: 24}}
+      source={require('../assets/dropdown.png')}
+    />
+  );
+};
 
-
+const BurgerMenu = () => {
+  return (
+    <Image
+      style={{width: 24, height: 24}}
+      source={require('../assets/burger.png')}
+    />
+  );
+};
 
 
 export {
@@ -159,4 +173,6 @@ export {
   Bookmark,
   Comment,
   Share,
+  Dropdown,
+  BurgerMenu
 };

@@ -2,8 +2,8 @@ export default [
   {
     id: 1,
     user: {
-      name: 'John Carter',
-      avatar: 'https://randomuser.me/api/portraits/men/1.jpg',
+      name: 'Ella Girin',
+      avatar: 'https://randomuser.me/api/portraits/women/21.jpg',
     },
   },
   {

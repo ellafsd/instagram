@@ -17,6 +17,14 @@ import {
   ShopField,
 } from '../utils/icons';
 
+import posts from '../utils/post'; 
+
+// Find the post with id: 18
+const selectedPost = posts.find(post => post.id === 18);
+const userAvatar = selectedPost?.user?.avatar; // Get user avatar
+
+
+
 const TabNavigation = createBottomTabNavigator();
 
 const {HOMESCREEN, PROFILESCREEN, SEARCHSCREEN, REELSCREEN, SHOPSCREEN} =
@@ -62,7 +70,7 @@ const BottomTabsNavigation = () => {
           styles.avatar,
           {borderColor: focused ?  '#000' : 'transparent'},
           ]}
-          source={require('../assets/profile.png')} 
+          source={require('../assets/profile.png')}
         />  
         ),
       }}
@@ -80,7 +88,7 @@ const styles = StyleSheet.create({
   avatar: {
     width: 30,
     height: 30,
-    borderWith: 1,
+    borderWidth: 1,
     borderRadius: 25,
   } ,
 })

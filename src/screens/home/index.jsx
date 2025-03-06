@@ -10,9 +10,9 @@ const HomeScreen = () => {
       <Header />
       <Stories />
       <ScrollView>
-      {posts.map(post => (
-        <Post post = {post} key={posts.id}/>
-      ))}
+        {posts.map(post => (
+          <Post post={post} key={post.id} />
+        ))}
       </ScrollView>
     </SafeAreaView>
   );
